@@ -1,0 +1,11 @@
+CRITICAL - 2023-03-26 09:31:05 --> unlink(/home/hapylangso/domains/behapylangson.com/public_html/writable/debugbar/debugbar_1679712832.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/ha...', '/home/hapylangs...', 106, Array)
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(106): unlink('/home/hapylangs...')
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1679841063, 20)
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/hapylangso/domains/behapylangson.com/public_html/app/Config/Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

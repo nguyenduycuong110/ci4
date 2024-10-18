@@ -1,0 +1,10 @@
+CRITICAL - 2022-12-27 06:12:10 --> Undefined index: description
+#0 /home/hapy/domains/behapyhanoi.com/public_html/app/Controllers/Frontend/Article/Article.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/hapy/doma...', 54, Array)
+#1 /home/hapy/domains/behapyhanoi.com/public_html/vendor/codeigniter4/framework/system/View/Cell.php(180): App\Controllers\Frontend\Article\Article->index(126, '1')
+#2 /home/hapy/domains/behapyhanoi.com/public_html/vendor/codeigniter4/framework/system/Common.php(1140): CodeIgniter\View\Cell->render('\\App\\Controller...', 'id=126, page=1', 0, 'AppControllersF...')
+#3 /home/hapy/domains/behapyhanoi.com/public_html/app/Controllers/Frontend/Homepage/Router.php(59): view_cell('\\App\\Controller...', 'id=126, page=1')
+#4 /home/hapy/domains/behapyhanoi.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Router->index('ve-chung-toi')
+#5 /home/hapy/domains/behapyhanoi.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Router))
+#6 /home/hapy/domains/behapyhanoi.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/hapy/domains/behapyhanoi.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}

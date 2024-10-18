@@ -1,0 +1,7 @@
+CRITICAL - 2023-12-11 00:54:44 --> Undefined index: 
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Ajax/Frontend/Cart.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/hapylangs...', 236, Array)
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Ajax\Frontend\Cart->change_quantity_new()
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Frontend\Cart))
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

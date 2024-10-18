@@ -1,0 +1,34 @@
+CRITICAL - 2024-08-06 03:42:38 --> Undefined variable: message
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Frontend/Homepage/Home.php(290): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/hapylangs...', 290, Array)
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->test_sms()
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-06 03:42:49 --> Undefined property: App\Controllers\Frontend\Homepage\Home::$api_key
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Frontend/Homepage/Home.php(299): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/hapylangs...', 299, Array)
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->test_sms()
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-06 03:54:26 --> Class 'App\Libraries\SpeedSMSAPI' not found
+#0 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->test_sms()
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-08-06 03:54:59 --> Too few arguments to function App\Libraries\SpeedSMSAPI::__construct(), 0 passed in /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Frontend/Homepage/Home.php on line 288 and exactly 1 expected
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Frontend/Homepage/Home.php(288): App\Libraries\SpeedSMSAPI->__construct()
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->test_sms()
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-08-06 03:55:00 --> Too few arguments to function App\Libraries\SpeedSMSAPI::__construct(), 0 passed in /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Frontend/Homepage/Home.php on line 288 and exactly 1 expected
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Frontend/Homepage/Home.php(288): App\Libraries\SpeedSMSAPI->__construct()
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->test_sms()
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

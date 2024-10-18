@@ -1,0 +1,16 @@
+CRITICAL - 2023-03-08 08:11:11 --> Undefined index: order
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Views/backend/slide/slide/store.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/hapylangs...', 72, Array)
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/hapylangs...')
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('backend/slide/s...', Array, true)
+#3 /home/hapylangso/domains/behapylangson.com/public_html/app/Views/backend/slide/slide/create.php(16): view('backend/slide/s...')
+#4 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/hapylangs...')
+#5 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('backend/slide/s...', Array, true)
+#6 /home/hapylangso/domains/behapylangson.com/public_html/app/Views/backend/dashboard/layout/home.php(44): view('backend/slide/s...')
+#7 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/View/View.php(246): include('/home/hapylangs...')
+#8 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('backend/dashboa...', Array, true)
+#9 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Backend/Slide/Slide.php(122): view('backend/dashboa...', Array)
+#10 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\Slide\Slide->create()
+#11 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Slide\Slide))
+#12 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}

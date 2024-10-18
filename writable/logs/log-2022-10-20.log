@@ -1,0 +1,6 @@
+CRITICAL - 2022-10-20 12:36:22 --> Invalid HTTP Protocol Version. Must be one of: 1.0, 1.1, 2
+#0 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/HTTP/Message.php(376): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidHTTPProtocol('1.0, 1.1, 2')
+#1 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(571): CodeIgniter\HTTP\Message->setProtocolVersion('4.0')
+#2 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(286): CodeIgniter\CodeIgniter->getRequestObject()
+#3 /home/metramhuon/domains/metramhuong.vn/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}

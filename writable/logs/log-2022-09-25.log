@@ -1,0 +1,22 @@
+CRITICAL - 2022-09-25 10:27:32 --> unlink(/home/metramhuon/domains/metramhuong.vn/public_html/writable/debugbar/debugbar_1664115731.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/me...', '/home/metramhuo...', 106, Array)
+#1 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(106): unlink('/home/metramhuo...')
+#2 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1664118760, 20)
+#3 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/metramhuon/domains/metramhuong.vn/public_html/app/Config/Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/metramhuon/domains/metramhuong.vn/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-25 23:35:38 --> unlink(/home/metramhuon/domains/metramhuong.vn/public_html/writable/debugbar/debugbar_1664163021.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/me...', '/home/metramhuo...', 106, Array)
+#1 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar/Collectors/History.php(106): unlink('/home/metramhuo...')
+#2 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1664166937, 20)
+#3 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/Debug/Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/metramhuon/domains/metramhuong.vn/public_html/app/Config/Events.php(44): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/Events/Events.php(188): call_user_func(Object(Closure))
+#7 /home/metramhuon/domains/metramhuong.vn/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#8 /home/metramhuon/domains/metramhuong.vn/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

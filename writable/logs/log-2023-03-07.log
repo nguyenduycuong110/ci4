@@ -1,0 +1,55 @@
+CRITICAL - 2023-03-07 08:50:30 --> Column 'userid_created' cannot be null
+#0 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Backend/User/User.php(76): App\Models\AutoloadModel->_insert(Array)
+#6 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#7 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#8 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 08:51:38 --> Column 'userid_created' cannot be null
+#0 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Backend/User/User.php(76): App\Models\AutoloadModel->_insert(Array)
+#6 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#7 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#8 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 08:51:54 --> Column 'userid_created' cannot be null
+#0 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Backend/User/User.php(76): App\Models\AutoloadModel->_insert(Array)
+#6 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#7 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#8 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 08:52:23 --> Column 'userid_created' cannot be null
+#0 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/app/Models/AutoloadModel.php(90): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Backend/User/User.php(76): App\Models\AutoloadModel->_insert(Array)
+#6 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#7 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#8 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-03-07 08:53:16 --> Undefined variable: session
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Backend/User/User.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/hapylangs...', 79, Array)
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\User\User->create()
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\User\User))
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,30 @@
+CRITICAL - 2024-05-22 01:42:30 --> Undefined variable: content_page
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Frontend/Homepage/Home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/hapylangs...', 108, Array)
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->crawler()
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-22 01:42:32 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-05-22 01:42:47 --> Array to string conversion
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Frontend/Homepage/Home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/hapylangs...', 108, Array)
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->crawler()
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-22 01:42:49 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-05-22 01:43:38 --> Array to string conversion
+#0 /home/hapylangso/domains/behapylangson.com/public_html/app/Controllers/Frontend/Homepage/Home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/hapylangs...', 108, Array)
+#1 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Frontend\Homepage\Home->crawler()
+#2 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Homepage\Home))
+#3 /home/hapylangso/domains/behapylangson.com/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/hapylangso/domains/behapylangson.com/public_html/index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-22 01:43:39 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
